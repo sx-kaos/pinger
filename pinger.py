@@ -41,7 +41,6 @@ def main():
 				os.system(f'ping -t 2 0 10 127.0.0.1 >nul')
 			main()
 		elif rainbow == 'n':
-			os.system('color a')
 			target = input("Target to ping: ")
 			if target == 'exit':
 				exit()
